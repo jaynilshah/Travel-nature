@@ -30,6 +30,13 @@
         background-color:$color-white;
     }
 }
+&--green{
+    color : $color-white;
+    background-color: $color-primary;
+    &::after{
+        background-color:$color-primary;
+    }
+}
 &--animated{
     animation: moveInUp 0.7s ease-out 0.25s;
     animation-fill-mode: backwards;
